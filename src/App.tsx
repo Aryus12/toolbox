@@ -568,10 +568,8 @@ export default function App() {
   }
 
   const selectedCategoryCount = tools.length
-
-  const displayedCategories = showAll
-    ? categories
-    : categories.slice(0, 9)
+  
+   const displayedCategories = categories
 
   return (
     <div className={`app-shell ${dark ? 'theme-dark' : 'theme-light'}`}>
